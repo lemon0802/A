@@ -14,7 +14,6 @@
 		F74DAF052016E83E0001B3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74DAF042016E83E0001B3E1 /* Assets.xcassets */; };
 		F74DAF082016E83E0001B3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74DAF062016E83E0001B3E1 /* LaunchScreen.storyboard */; };
 		F74DAF0B2016E83E0001B3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F74DAF0A2016E83E0001B3E1 /* main.m */; };
-		F74DAF4520171F140001B3E1 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = F74DAF4420171F140001B3E1 /* Target_A.m */; };
 		F77593E2201723FC00E351FB /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77593E1201723FC00E351FB /* AViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -32,10 +31,10 @@
 		F74DAF072016E83E0001B3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F74DAF092016E83E0001B3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74DAF0A2016E83E0001B3E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F74DAF4320171F140001B3E1 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
-		F74DAF4420171F140001B3E1 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 		F77593E0201723FC00E351FB /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		F77593E1201723FC00E351FB /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		F77593EB20173A9F00E351FB /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		F77593EC20173A9F00E351FB /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +87,6 @@
 		F74DAEFA2016E83E0001B3E1 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				F74DAF4220171E090001B3E1 /* Targets */,
 				F74DAF3F20171DBC0001B3E1 /* A */,
 				F74DAEFB2016E83E0001B3E1 /* AppDelegate.h */,
 				F74DAEFC2016E83E0001B3E1 /* AppDelegate.m */,
@@ -106,17 +104,18 @@
 		F74DAF3F20171DBC0001B3E1 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				F77593EA20173A9F00E351FB /* Targets */,
 				F77593E0201723FC00E351FB /* AViewController.h */,
 				F77593E1201723FC00E351FB /* AViewController.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
 		};
-		F74DAF4220171E090001B3E1 /* Targets */ = {
+		F77593EA20173A9F00E351FB /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				F74DAF4320171F140001B3E1 /* Target_A.h */,
-				F74DAF4420171F140001B3E1 /* Target_A.m */,
+				F77593EB20173A9F00E351FB /* Target_A.h */,
+				F77593EC20173A9F00E351FB /* Target_A.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -246,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74DAF4520171F140001B3E1 /* Target_A.m in Sources */,
 				F77593E2201723FC00E351FB /* AViewController.m in Sources */,
 				F74DAF002016E83E0001B3E1 /* ViewController.m in Sources */,
 				F74DAF0B2016E83E0001B3E1 /* main.m in Sources */,
